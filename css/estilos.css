@@ -1,5 +1,5 @@
 main {
-  font-family: "Times New Roman", Times, serif; }
+  font-family: Arial, Helvetica, sans-serif; }
 
 footer {
   font-family: Arial, Helvetica, sans-serif; }
@@ -23,9 +23,7 @@ body {
     .navbar .container-fluid {
       background-color: whitesmoke; }
     .navbar .navbar-toggler {
-      border: 1px solid rgba(145, 142, 142, 0.89); }
-      .navbar .navbar-toggler:focus {
-        box-shadow: none; }
+      box-shadow: none; }
     .navbar .form-control {
       outline: none;
       border: 1px solid black;
@@ -43,7 +41,7 @@ body {
       border-color: black;
       height: 38px;
       position: relative;
-      top: 9px; }
+      top: 10px; }
   footer {
     background-color: #21b4c7;
     text-align: center;
@@ -79,6 +77,7 @@ body {
   /* Index Mobile Styles */
   .titulo-pag {
     text-align: center;
+    font-family: 'Times New Roman', Times, serif;
     text-transform: uppercase;
     margin-top: 30px;
     font-weight: bold;
@@ -127,9 +126,11 @@ body {
     margin: 10px;
     padding: 10px; }
   .grid-form .grid-form-inputs input {
-    margin: 10px; }
+    margin: 10px;
+    border: 1px solid black; }
   .grid-form .grid-form-inputs textarea {
-    margin: 10px; }
+    margin: 10px;
+    border: 1px solid black; }
   .grid-form .grid-form-socials {
     display: none; }
   /* Sobre Mi Mobile Styles */
@@ -139,36 +140,25 @@ body {
     text-align: center;
     font-size: 15px; } }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1200px) {
   main {
     margin-left: 40px;
     margin-right: 40px; }
   header {
     border-radius: 20px;
     margin-top: 10px; }
-  footer {
-    background-color: #21b4c7;
-    text-align: center;
-    margin-top: 30px;
-    font-size: 14px; }
-  .logo2 {
-    width: 20%;
-    height: 170px; }
-  .fit {
-    height: 180px; }
-  .fab {
-    color: white; }
-  .tw:hover {
-    color: aqua; }
-  .ig:hover {
-    color: #e24da9; }
-  .fb:hover {
-    color: blue; }
-  .nav-item a {
+    header .logo2 {
+      width: 20%;
+      height: 170px; }
+    header .fit {
+      height: 180px; }
+  .nav-item {
     font-size: 20px;
     margin-right: 50px; }
-    .nav-item a .nav-link:hover {
-      color: #1b7dec; }
+    .nav-item .nav-link:hover {
+      color: #93e497; }
+  .btn-outline-success:hover {
+    background-color: #cfcbcb; }
   /* Index Styles */
   .card {
     min-height: 500px;
